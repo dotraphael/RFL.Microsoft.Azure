@@ -25,7 +25,7 @@ Example 03: Exports the Virtual Machines Data in a HTML format for the Tenant te
 **.\ExportAzureData.ps1 -BetaAPI -OutputFormat @('HTML') -TenantId 'tenant.com' -OutputFolderPath "c:\temp" -ExportVirtualMachines -ExportCostInformation $false -ExportWithMetrics $false**
 
 # Documentation
-Access our Wiki at RFL.Microsoft.Azure/wiki
+Access our Wiki at https://github.com/dotraphael/RFL.Microsoft.Azure/wiki
 
 # Issues and Support
-Access our Issues at RFL.Microsoft.Azure/issues
+Access our Issues at https://github.com/dotraphael/RFL.Microsoft.Azure/issues
