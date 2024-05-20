@@ -18,11 +18,11 @@ Example01: Exports all the Data in a word format for the Tenant tenant.com and w
 
 Example 02: Exports the Virtual Machines Data in a HTML format for the Tenant tenant.com and will save the file to c:\temp folder
 
-**.\ExportAzureData.ps1 -BetaAPI -OutputFormat @('HTML') -TenantId 'tenant.com' -OutputFolderPath "c:\temp" -ExportVirtualMachines**
+**.\ExportAzureData.ps1 -OutputFormat @('HTML') -TenantId 'tenant.com' -OutputFolderPath "c:\temp" -ExportVirtualMachines**
 
 Example 03: Exports the Virtual Machines Data in a HTML format for the Tenant tenant.com without exporting Costs and Metric information and will save the file to c:\temp folder
 
-**.\ExportAzureData.ps1 -BetaAPI -OutputFormat @('HTML') -TenantId 'tenant.com' -OutputFolderPath "c:\temp" -ExportVirtualMachines -ExportCostInformation $false -ExportWithMetrics $false**
+**.\ExportAzureData.ps1 -OutputFormat @('HTML') -TenantId 'tenant.com' -OutputFolderPath "c:\temp" -ExportVirtualMachines -ExportCostInformation $false -ExportWithMetrics $false**
 
 # Documentation
 Access our Wiki at https://github.com/dotraphael/RFL.Microsoft.Azure/wiki
